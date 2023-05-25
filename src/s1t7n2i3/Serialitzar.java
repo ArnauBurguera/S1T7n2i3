@@ -25,6 +25,7 @@ public class Serialitzar {
 			ObjectOutputStream escrivint_fitxer = new ObjectOutputStream(new FileOutputStream("Objecte_serialitzat.json"));
 			escrivint_fitxer.writeObject(this.obj);
 			escrivint_fitxer.close();
+			
 		}catch(Exception e) {
 
 		}
